@@ -43,6 +43,10 @@ android {
     }
     buildFeatures {
         compose = true
+<<<<<<< HEAD
+=======
+        viewBinding = true
+>>>>>>> 111360108v.2
     }
     composeOptions {
         kotlinCompilerExtensionVersion = "1.5.1"
@@ -58,6 +62,15 @@ android {
             version = "3.22.1"
         }
     }
+<<<<<<< HEAD
+=======
+    buildToolsVersion = "35.0.0"
+    ndkVersion = "26.1.10909125"
+    dependenciesInfo {
+        includeInApk = true
+        includeInBundle = true
+    }
+>>>>>>> 111360108v.2
 }
 
 dependencies {
@@ -83,3 +96,7 @@ dependencies {
 }
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 111360108v.2
