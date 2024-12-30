@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="選擇AI難度"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="16dp" />
+
+    <Button
+        android:id="@+id/btn_easy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="簡單" />
+
+    <Button
+        android:id="@+id/btn_medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="中等"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btn_hard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="困難"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>
