@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- 用於繪製遊戲畫面的 SurfaceView -->
+    <SurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="411dp"
+        android:layout_height="731dp"
+        android:layout_gravity="center" />
+
+    <!-- 用於顯示分數的 TextView -->
+
+    <!-- 用於開始遊戲的 Button -->
+    <TextView
+        android:id="@+id/scoreTextView"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:background="#88000000"
+        android:padding="16dp"
+        android:text="Score: Player 1: 0                                  Player 2: 0"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"> <!-- 设置所有元素在布局内居中 -->
+
+        <TextView
+            android:id="@+id/timerTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time: 01:30"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/startGameButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Game"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="20dp" />
+
+</FrameLayout>
+
