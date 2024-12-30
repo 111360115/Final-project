@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- 用於繪製遊戲畫面的 SurfaceView -->
+
+    <!-- 用於顯示分數的 TextView -->
+
+    <SurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="411dp"
+        android:layout_height="731dp"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/scoreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:background="#88000000"
+        android:padding="16dp"
+        android:text="Score: Player 1: 0  Player 2: 0"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+</FrameLayout>
